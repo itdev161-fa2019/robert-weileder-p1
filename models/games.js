@@ -1,6 +1,5 @@
 /*jshint esversion: 8 */
 import mongoose from 'mongoose';
-import { stringify } from 'querystring';
 
 const GameSchema = new mongoose.Schema({
     title: {
